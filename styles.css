@@ -902,7 +902,7 @@
   .contact-links svg{width:16px; height:16px; flex-shrink:0;}
 
   footer{
-    background:#000000; text-align:center; padding:9px 0; font-size:0.8rem; color:#FFFFFF;
+    background:#000000; text-align:center; padding:10px; font-size:0.8rem; color:#FFFFFF;
     font-family:'IBM Plex Mono', monospace; letter-spacing:0.02em;
   }
 
