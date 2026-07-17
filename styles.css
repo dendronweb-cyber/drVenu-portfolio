@@ -444,7 +444,7 @@
 .hero-contact{
     flex-direction:column;
     gap:12px;
-    margin-top:24px;
+    padding:10px;
 }
 
 .hero-contact .pill{
@@ -633,7 +633,7 @@
 @media (max-width:991px){
 
     #experience{
-        padding:60px 0;
+        padding:50px;
     }
 
     .timeline{
@@ -671,7 +671,7 @@
 @media (max-width:576px){
 
     #experience{
-        padding:50px 0;
+        padding:40px ;
     }
 
     .timeline{
@@ -945,9 +945,9 @@
       flex-direction:column; gap:0; border-bottom:1px solid var(--line);
       max-height:0; overflow:hidden; transition:max-height .25s ease;
     }
-    nav.links.open{max-height:320px; padding:6px 0;}
-    nav.links a{padding:14px 28px; border-bottom:1px solid var(--grid-line); width:100%;}
-    .nav-toggle{display:block;}
+    nav.links.open{max-height:350px; padding:6px 0;}
+    nav.links a{padding:14px 28px;  width:100%;}
+    .nav-toggle{display:block; color: #fff;}
     .hero-inner{grid-template-columns:1fr;}
     .about-grid{grid-template-columns:1fr; gap:24px;}
     .card-grid{grid-template-columns:1fr;}
