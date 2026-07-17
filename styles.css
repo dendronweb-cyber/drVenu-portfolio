@@ -461,10 +461,10 @@
 
 }
   /* ABOUT */
-  .about-grid{display:grid; grid-template-columns: 1fr 1fr; gap:44px; align-items:start;}
+  .about-grid{display:grid; grid-template-columns: 2fr 1fr; gap:44px; align-items:start;}
   .about-grid p{color:var(--muted); margin:0 0 14px; text-align: justify;}
   .about-grid strong{color:var(--ink); font-weight:600;}
-  .stat-row{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:8px;}
+  .stat-row{display:grid; grid-template-columns:1fr; gap:16px;}
   .stat{background:var(--card); border:1px solid #0000003d; border-radius:14px; padding:16px 18px;}
   .stat .n{font-family:'Fraunces', serif; font-size:1.7rem; color:#00a9a4; font-weight:600;}
   .stat .l{font-size:0.78rem; color:var(--muted); font-family:'IBM Plex Mono', monospace; letter-spacing:0.02em;}
@@ -964,3 +964,25 @@
     .avatar-fallback{font-size:1.4rem;}
     .gallery-grid{grid-template-columns:1fr;}
   }
+
+
+  .services-list ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.services-list li {
+  margin-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+/* Optional: Adds a small bullet/icon effect */
+.services-list li::before {
+  content: "•";
+  color: var(--primary-color); /* Use your existing brand color */
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+}
