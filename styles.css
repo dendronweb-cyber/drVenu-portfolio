@@ -946,7 +946,7 @@
       max-height:0; overflow:hidden; transition:max-height .25s ease;
     }
     nav.links.open{max-height:350px; padding:6px 0;}
-    nav.links a{padding:14px 28px;  width:100%;}
+    nav.links a{padding:14px 28px;  width:100%; color: #181616;}
     .nav-toggle{display:block; color: #fff;}
     .hero-inner{grid-template-columns:1fr;}
     .about-grid{grid-template-columns:1fr; gap:24px;}
