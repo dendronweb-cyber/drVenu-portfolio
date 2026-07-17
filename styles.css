@@ -942,7 +942,7 @@
   @media (max-width:860px){
     nav.links{
       position:fixed; top:64px; left:0; right:0; background:var(--paper);
-      flex-direction:column; gap:0; border-bottom:1px solid var(--line);
+      flex-direction:column; gap:0; 
       max-height:0; overflow:hidden; transition:max-height .25s ease;
     }
     nav.links.open{max-height:350px; padding:6px 0;}
